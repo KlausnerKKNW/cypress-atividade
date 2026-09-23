@@ -1,7 +1,6 @@
 name: Testes Cypress Agendados 
  
 on: 
-  push:
   workflow_dispatch: 
   schedule: 
     - cron: '0 21 * * *' 
